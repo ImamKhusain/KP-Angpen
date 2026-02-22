@@ -1,8 +1,9 @@
 <?php
 // config/config.php
 
-session_start();
-
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 // Konfigurasi database
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
