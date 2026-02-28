@@ -96,6 +96,7 @@ body{
     font-weight:600;
 }
 
+/* TITLE: diperbesar sedikit tulisan dan padding supaya lebih proposional */
 .title-wrap{
     text-align:center;
     margin-bottom:14px;
@@ -103,11 +104,14 @@ body{
 .title{
     background:var(--yellow);
     display:inline-block;
-    padding:10px 28px;
-    border-radius:4px;
+    /* === PERUBAHAN UTAMA === */
+    padding:12px 36px;      /* sedikit lebih besar dari sebelumnya */
+    font-size:20px;         /* memperbesar tulisan */
+    border-radius:6px;      /* lebih lembut */
     box-shadow:var(--shadow);
     color:#000;
-    font-weight:600;
+    font-weight:700;        /* lebih tebal agar kontras */
+    letter-spacing:0.2px;   /* sedikit spasi huruf agar rapi */
 }
 
 /* ================= TABLE ================= */
